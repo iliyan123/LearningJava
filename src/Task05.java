@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+        Задача 5:
+    Въведете 3 различни числа от конзолата и ги разпечатайте в низходящ
+    ред.
+*/
 public class Task05 {
     public static void main(String[] args) {
 

@@ -1,4 +1,9 @@
 import java.util.Scanner;
+/*
+        Задача 3:
+    Въведете 2 различни числа от конзолата и разменете стойността им.
+    Разпечатайте новите стойности
+*/
 
 public class Task03 {
     public static void main(String[] args) {

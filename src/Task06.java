@@ -1,6 +1,11 @@
 import java.net.StandardSocketOptions;
 import java.util.Scanner;
-
+/*
+Задача 6:
+Въведете 3 числа от клавиатурата а1, а2 и а3. Разменете стойностите
+им така, че а1 да има стойността на а2, а2 да има стойността на а3, а
+а3 да има старата стойност на а1.
+ */
 public class Task06 {
     public static void main(String[] args) {
 

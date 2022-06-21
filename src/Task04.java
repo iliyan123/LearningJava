@@ -1,5 +1,9 @@
 import java.util.Scanner;
-
+/*
+        Задача 4:
+    Въведете 2 различни числа от конзолата и ги разпечатайте в
+    нарастващ ред.
+*/
 public class Task04 {
     public static void main(String[] args) {
 

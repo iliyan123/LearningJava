@@ -17,8 +17,28 @@ public class Task08 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        int input = 0;
 
+        do {
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Моля въведете число между 1000 и 9999: ");
+            input = sc.nextInt();
 
+        }while (1000 > input || input > 9999);
+
+        int firstNumber = (input / 1000)*10 + (input % 10);
+        int secondNumber = (input / 10) % 100;
+
+        if (firstNumber < secondNumber){
+
+            System.out.println("по-малко (" + firstNumber + "<" + secondNumber + ")");
+        }
+        else if (firstNumber == secondNumber){
+
+            System.out.println("равни (" + firstNumber + "=" + secondNumber + ")");
+        } else {
+
+            System.out.println("по-голямо (" + firstNumber + ">" + secondNumber + ")");
+        }
     }
 }
